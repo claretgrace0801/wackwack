@@ -1,6 +1,8 @@
 import requests
 import time
 from pprint import pprint
+import json
+from process_transcript import process_transcript
 
 # Define the URL and headers for the request
 url = 'https://api.fireflies.ai/graphql'
@@ -25,6 +27,10 @@ def fetch_transcript(transcript_id):
     transcript = response_json.get('data', {}).get('transcript', {})
     return transcript
 
+def dump_transcript(transcript, transcript_id):
+    with open(f'transcripts/{transcript_id}.json', 'w') as json_file:
+        json.dump({'data':{'transcript': transcript}}, json_file, indent=2)
+
 # Initialize the previous count and IDs
 previous_transcripts = fetch_transcripts()
 previous_count = len(previous_transcripts)
@@ -48,6 +54,8 @@ while True:
             print(f"New transcript ID: {transcript['id']} {transcript['title']}")
             new_transcript=fetch_transcript(transcript['id'])
             pprint(new_transcript)
+            dump_transcript(new_transcript, transcript['id'])
+            process_transcript(transcript['id'])
 
         # Update previous transcripts and count
         previous_transcripts = current_transcripts
