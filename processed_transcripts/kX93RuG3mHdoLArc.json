@@ -1,0 +1,262 @@
+[
+  {
+    "index": 0,
+    "text": "Hello?",
+    "start_time": 4.52,
+    "end_time": 5.056,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Mistake",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 1,
+    "text": "Hello.",
+    "start_time": 5.158,
+    "end_time": 5.89,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Brillant",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 2,
+    "text": "Hi.",
+    "start_time": 6.95,
+    "end_time": 7.69,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Brillant",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 3,
+    "text": "Yeah, how may I help you?",
+    "start_time": 8.67,
+    "end_time": 13.17,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Brillant",
+    "sentiment": "positive"
+  },
+  {
+    "index": 4,
+    "text": "Actually, I had a problem regarding my order.",
+    "start_time": 14.79,
+    "end_time": 17.65,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Brillant",
+    "sentiment": "negative"
+  },
+  {
+    "index": 5,
+    "text": "Okay, can you be more specific?",
+    "start_time": 18.63,
+    "end_time": 21.61,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Great",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 6,
+    "text": "Actually, I lied.",
+    "start_time": 22.27,
+    "end_time": 23.422,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Brillant",
+    "sentiment": "negative"
+  },
+  {
+    "index": 7,
+    "text": "I have no problem regarding my order, but I really need emotional support right now.",
+    "start_time": 23.486,
+    "end_time": 28.67,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Brillant",
+    "sentiment": "negative"
+  },
+  {
+    "index": 8,
+    "text": "Okay, we don't.",
+    "start_time": 29.85,
+    "end_time": 32.51,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Blunder",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 9,
+    "text": "We don't do such stuff here.",
+    "start_time": 33.41,
+    "end_time": 35.31,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Mistake",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 10,
+    "text": "Please go out of your way to help a person in need.",
+    "start_time": 36.53,
+    "end_time": 39.674,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Mistake",
+    "sentiment": "positive"
+  },
+  {
+    "index": 11,
+    "text": "I have no one else to talk to.",
+    "start_time": 39.802,
+    "end_time": 41.538,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Mistake",
+    "sentiment": "negative"
+  },
+  {
+    "index": 12,
+    "text": "I mean, I will redirect you to a therapist.",
+    "start_time": 41.634,
+    "end_time": 44.27,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Mistake",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 13,
+    "text": "Will you pay for the therapist?",
+    "start_time": 45.89,
+    "end_time": 47.75,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Blunder",
+    "sentiment": "negative"
+  },
+  {
+    "index": 14,
+    "text": "Yeah, it's reimbursed if you work in Salesforce.",
+    "start_time": 49.17,
+    "end_time": 52.87,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Mistake",
+    "sentiment": "positive"
+  },
+  {
+    "index": 15,
+    "text": "Oh, I do work at Salesforce.",
+    "start_time": 53.42,
+    "end_time": 54.916,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Mistake",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 16,
+    "text": "How did you know?",
+    "start_time": 54.948,
+    "end_time": 55.428,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Blunder",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 17,
+    "text": "Are you stalking?",
+    "start_time": 55.444,
+    "end_time": 56.44,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Brillant",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 18,
+    "text": "Yeah, we do.",
+    "start_time": 56.78,
+    "end_time": 58.12,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Great",
+    "sentiment": "positive"
+  },
+  {
+    "index": 19,
+    "text": "I'll sue you.",
+    "start_time": 59.98,
+    "end_time": 61.24,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Brillant",
+    "sentiment": "negative"
+  },
+  {
+    "index": 20,
+    "text": "Okay, you can sue the company, but.",
+    "start_time": 62.42,
+    "end_time": 65.412,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Blunder",
+    "sentiment": "negative"
+  },
+  {
+    "index": 21,
+    "text": "I won't sue you if you give me emotional support.",
+    "start_time": 65.436,
+    "end_time": 67.96,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Brillant",
+    "sentiment": "positive"
+  },
+  {
+    "index": 22,
+    "text": "Yeah, I actually need it for myself also.",
+    "start_time": 68.86,
+    "end_time": 73.36,
+    "speaker_name": null,
+    "speaker_id": 1,
+    "move": "Blunder",
+    "sentiment": "positive"
+  },
+  {
+    "index": 23,
+    "text": "Oh, sure.",
+    "start_time": 74.02,
+    "end_time": 74.708,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Mistake",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 24,
+    "text": "Let's go to the therapist together.",
+    "start_time": 74.764,
+    "end_time": 76.48,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Brillant",
+    "sentiment": "neutral"
+  },
+  {
+    "index": 25,
+    "text": "Bye.",
+    "start_time": 83.43,
+    "end_time": 83.79,
+    "speaker_name": null,
+    "speaker_id": 0,
+    "move": "Mistake",
+    "sentiment": "neutral"
+  }
+]
