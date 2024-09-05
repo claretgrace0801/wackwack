@@ -30,8 +30,6 @@ def radar_chart(move_freq):
     fig.update_traces(fill='toself')
 
     # Streamlit radar chart
-    st.title("Skill Radar Chart")
-    st.write("This radar chart represents the levels of various skills.")
     st.plotly_chart(fig)
 
 def brilliant_blunders_bar_chart(data):
@@ -88,3 +86,36 @@ def score_line_chart(scores):
     st.title("Time Analysis of Call Score")
 
     st.line_chart(y_values)
+
+def arrange(things):
+
+    # Create sample data for demonstration
+    np.random.seed(0)
+    data = pd.DataFrame({
+        'x': np.arange(10),
+        'y': np.random.rand(10)
+    })
+
+    # Streamlit app
+    st.title("4-Quadrant Layout Example")
+    # Create a 2x2 grid of columns
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.header("Quadrant 1: Line Chart")
+        things[0]
+
+    with col2:
+        st.header("Quadrant 2: Bar Chart")
+        things[1]
+
+    # Adding a second row with 2 more columns
+    col3, col4 = st.columns(2)
+
+    with col3:
+        st.header("Quadrant 3: Data Table")
+        st.dataframe(data)
+
+    with col4:
+        st.header("Quadrant 4: Area Chart")
+        st.area_chart(data.set_index('x'))
