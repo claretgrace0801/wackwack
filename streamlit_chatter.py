@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import base64
 from streamlit_test import display_agent
+from streamlit_chatwindow import chat_window
 from pathlib import Path
 
 # Define the path to the JSON file and symbols
@@ -13,6 +14,7 @@ joining_date = "2015-06-15"
 
 # Call the function to display the agent details
 display_agent(agent_name, role, work_experience, joining_date)
+
 
 transcipts_dir = Path('processed_transcripts')
 # Page selection via links
@@ -183,5 +185,5 @@ for entry in data:
             </div>
                 """, unsafe_allow_html=True)
 
-
+chat_window()
 
