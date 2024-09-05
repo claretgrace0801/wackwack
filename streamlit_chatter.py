@@ -3,6 +3,7 @@ import json
 import base64
 from streamlit_test import display_agent
 from pathlib import Path
+from metrics.charts import radar_chart, calc_move_freq
 
 # Define the path to the JSON file and symbols
 
@@ -28,12 +29,13 @@ symbols_dict = {
     "Interesting": "symbols/interesting.png",
     "Mistake": "symbols/mistake.png",
     "Book":"symbols/book.png",
-
 }
-
 
 with open(f'processed_transcripts/{transcript_id}.json', 'r') as file:
     data = json.load(file)
+
+move_histogram = calc_move_freq(data)
+radar_chart(move_histogram)
 
 # Loop through JSON data and display
 for entry in data:
@@ -141,8 +143,12 @@ for entry in data:
                         border: 1px solid #ccc; 
                         border-radius: 5px; 
                         background-color: #bdfcd7;
-                        color: black;">
-                        <span>{text}</span>
+                        color: black;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;">
+                        <span style="text-align: left;">↪ {text}</span>
+                        <span style="text-align: right;">[Better Alternative]</span>
                     </div>
                 """, unsafe_allow_html=True)
     
@@ -182,6 +188,4 @@ for entry in data:
                 <span>{text}</span>
             </div>
                 """, unsafe_allow_html=True)
-
-
-
+        
