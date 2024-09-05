@@ -4,7 +4,7 @@ import base64
 from streamlit_test import display_agent
 from streamlit_chatwindow import chat_window
 from pathlib import Path
-from metrics.charts import radar_chart, calc_move_freq, brilliant_blunders_bar_chart, score_line_chart
+from metrics.charts import radar_chart, calc_move_freq, brilliant_blunders_bar_chart, score_line_chart, arrange
 from metrics.metrics import avg_call_score, time_call_score, display_metric
 
 # Define the path to the JSON file and symbols
@@ -37,18 +37,40 @@ symbols_dict = {
 with open(f'processed_transcripts/{transcript_id}.json', 'r') as file:
     data = json.load(file)
 
-# Radar Chart
-move_histogram = calc_move_freq(data)
-radar_chart(move_histogram)
+# Layout for the charts
+st.title("Agent-Customer Interaction Analysis")
 
-# Call Score
-display_metric(avg_call_score(data), "Average Call Score")
+# Create a two-row layout for charts
+col1, col2 = st.columns(2)
 
-# line chart call score
+with col1:
+    st.subheader("Radar Chart: Move Frequencies")
+    move_histogram = calc_move_freq(data)
+    radar_chart(move_histogram)
+
+with col2:
+    st.subheader("Average Call Score")
+    for i in range(10):
+        st.write("\n")
+    display_metric(avg_call_score(data), "Average Call Score")
+
+brilliant_blunders_bar_chart(data)
+
+st.subheader("Call Score Over Time")
 score_line_chart(time_call_score(data))
 
-# Bar Chart
-brilliant_blunders_bar_chart(data)
+# # Radar Chart
+# move_histogram = calc_move_freq(data)
+# radar_chart(move_histogram)
+
+# # Call Score
+# display_metric(avg_call_score(data), "Average Call Score")
+
+# # line chart call score
+# score_line_chart(time_call_score(data))
+
+# # Bar Chart
+# brilliant_blunders_bar_chart(data)
 
 # Loop through JSON data and display
 for entry in data:
