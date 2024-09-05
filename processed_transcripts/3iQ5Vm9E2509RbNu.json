@@ -106,7 +106,7 @@
     "end_time": 46.11,
     "speaker_name": "Shreyas Pradhan",
     "speaker_id": 0,
-    "move": "Brillant",
+    "move": "Brilliant",
     "sentiment": "negative"
   },
   {
@@ -156,7 +156,7 @@
     "end_time": 63.96,
     "speaker_name": "Santhoshi Kotha",
     "speaker_id": 1,
-    "move": "Brillant",
+    "move": "Brilliant",
     "sentiment": "neutral"
   },
   {
@@ -166,7 +166,7 @@
     "end_time": 66.36,
     "speaker_name": "Santhoshi Kotha",
     "speaker_id": 1,
-    "move": "Brillant",
+    "move": "Brilliant",
     "sentiment": "positive"
   },
   {
@@ -206,7 +206,7 @@
     "end_time": 85.46,
     "speaker_name": "Shreyas Pradhan",
     "speaker_id": 0,
-    "move": "Brillant",
+    "move": "Brilliant",
     "sentiment": "neutral"
   },
   {
@@ -246,7 +246,7 @@
     "end_time": 111.91,
     "speaker_name": "Shreyas Pradhan",
     "speaker_id": 0,
-    "move": "Brillant",
+    "move": "Brilliant",
     "sentiment": "positive"
   },
   {
@@ -296,7 +296,7 @@
     "end_time": 171.09,
     "speaker_name": "Santhoshi Kotha",
     "speaker_id": 1,
-    "move": "Brillant",
+    "move": "Brilliant",
     "sentiment": "neutral"
   },
   {
@@ -316,7 +316,7 @@
     "end_time": 182.14,
     "speaker_name": "Santhoshi Kotha",
     "speaker_id": 1,
-    "move": "Brillant",
+    "move": "Brilliant",
     "sentiment": "neutral"
   },
   {
@@ -326,7 +326,7 @@
     "end_time": 384.16,
     "speaker_name": "Shreyas Pradhan",
     "speaker_id": 0,
-    "move": "Brillant",
+    "move": "Brilliant",
     "sentiment": "neutral"
   }
 ]
