@@ -32,7 +32,7 @@ def dump_transcript(transcript, transcript_id):
         json.dump({'data':{'transcript': transcript}}, json_file, indent=2)
 
 # Initialize the previous count and IDs
-previous_transcripts = fetch_transcripts()
+previous_transcripts = fetch_transcripts()[:-1]
 previous_count = len(previous_transcripts)
 
 print("Monitoring for new transcriptions...")

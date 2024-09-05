@@ -8,7 +8,7 @@ def process_transcript(transcript_id):
         data = json.load(file)
 
     # sentiment analysis
-    moves = ["Brillant", "Great", "Blunder", "Mistake"]
+    moves = ["Brillant", "Great", "Blunder", "Mistake","Inaccuracy", "Dubious","Book","Interesting"]
 
     logs = []
     for sentence in data["data"]["transcript"]["sentences"]:

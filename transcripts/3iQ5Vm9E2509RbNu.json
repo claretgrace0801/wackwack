@@ -1,0 +1,375 @@
+{
+  "data": {
+    "transcript": {
+      "id": "3iQ5Vm9E2509RbNu",
+      "title": "shpradhan12@gmail.com - Tue, 03 Sep 2024 09:54:50 GMT - Untitled",
+      "transcript_url": "https://app.fireflies.ai/view/3iQ5Vm9E2509RbNu",
+      "duration": 10,
+      "sentences": [
+        {
+          "index": 0,
+          "text": "Hi.",
+          "start_time": 5.6,
+          "end_time": 6.18,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 1,
+          "text": "Are you okay?",
+          "start_time": 10.27,
+          "end_time": 11.49,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 2,
+          "text": "Why?",
+          "start_time": 15.83,
+          "end_time": 16.57,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 3,
+          "text": "My order was not delivered.",
+          "start_time": 18.55,
+          "end_time": 20.61,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 4,
+          "text": "Oh, sure.",
+          "start_time": 24.63,
+          "end_time": 25.666,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 5,
+          "text": "Why?",
+          "start_time": 25.838,
+          "end_time": 26.55,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 6,
+          "text": "I assume the delivery guy had it.",
+          "start_time": 28.49,
+          "end_time": 30.99,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 7,
+          "text": "Let's kill him.",
+          "start_time": 32.81,
+          "end_time": 34.79,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "negative"
+          }
+        },
+        {
+          "index": 8,
+          "text": "Isn't that too harsh?",
+          "start_time": 37.01,
+          "end_time": 38.83,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "negative"
+          }
+        },
+        {
+          "index": 9,
+          "text": "Maybe.",
+          "start_time": 43.09,
+          "end_time": 43.914,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 10,
+          "text": "But let's kill him nevertheless.",
+          "start_time": 44.082,
+          "end_time": 46.11,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "negative"
+          }
+        },
+        {
+          "index": 11,
+          "text": "Okay.",
+          "start_time": 50.49,
+          "end_time": 51.43,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 12,
+          "text": "Plan.",
+          "start_time": 51.9,
+          "end_time": 52.64,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 13,
+          "text": "Gun shoot.",
+          "start_time": 55.26,
+          "end_time": 56.96,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "negative"
+          }
+        },
+        {
+          "index": 14,
+          "text": "Okay, that's very.",
+          "start_time": 59.42,
+          "end_time": 60.84,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 15,
+          "text": "That's a very simple.",
+          "start_time": 62.18,
+          "end_time": 63.96,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 16,
+          "text": "I want him to.",
+          "start_time": 65.02,
+          "end_time": 66.36,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "positive"
+          }
+        },
+        {
+          "index": 17,
+          "text": "Better idea.",
+          "start_time": 69.1,
+          "end_time": 70.32,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "positive"
+          }
+        },
+        {
+          "index": 18,
+          "text": "We'll tie ropes to his both hands.",
+          "start_time": 71.7,
+          "end_time": 75.092,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 19,
+          "text": "And then tie more ropes to his feet.",
+          "start_time": 75.236,
+          "end_time": 78.352,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 20,
+          "text": "And then pull him from the hands and feet so that he separates at the stomach and we get our food back.",
+          "start_time": 78.496,
+          "end_time": 85.46,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 21,
+          "text": "Done.",
+          "start_time": 89.84,
+          "end_time": 90.272,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 22,
+          "text": "See you in 15.",
+          "start_time": 90.336,
+          "end_time": 91.46,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 23,
+          "text": "Yay.",
+          "start_time": 93.08,
+          "end_time": 93.9,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 24,
+          "text": "Oh yeah.",
+          "start_time": 110.93,
+          "end_time": 111.91,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "positive"
+          }
+        },
+        {
+          "index": 25,
+          "text": "We're just existing.",
+          "start_time": 156.27,
+          "end_time": 157.89,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 26,
+          "text": "Throw my food.",
+          "start_time": 160.39,
+          "end_time": 161.81,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 27,
+          "text": "So now order.",
+          "start_time": 164.31,
+          "end_time": 165.358,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 28,
+          "text": "Karthi, we'll get energy to kill that guy.",
+          "start_time": 165.414,
+          "end_time": 168.05,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "negative"
+          }
+        },
+        {
+          "index": 29,
+          "text": "But what if.",
+          "start_time": 169.79,
+          "end_time": 171.09,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 30,
+          "text": "Double homicide.",
+          "start_time": 176.83,
+          "end_time": 178.21,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "negative"
+          }
+        },
+        {
+          "index": 31,
+          "text": "Letting.",
+          "start_time": 180.32,
+          "end_time": 182.14,
+          "speaker_name": "Santhoshi Kotha",
+          "speaker_id": 1,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        },
+        {
+          "index": 32,
+          "text": "It it.",
+          "start_time": 332.86,
+          "end_time": 384.16,
+          "speaker_name": "Shreyas Pradhan",
+          "speaker_id": 0,
+          "ai_filters": {
+            "sentiment": "neutral"
+          }
+        }
+      ]
+    }
+  }
+}
