@@ -41,6 +41,7 @@ def display_agent(agent_name, role, work_experience, joining_date):
         .agent-info h2 {
             margin: 0;
             font-size: 18px;
+            color: black;
         }
         .agent-info p {
             margin: 5px 0;
